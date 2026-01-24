@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\natal\Documents\GitHub\I2C-Level-Converter\I2C-level-Converter\I2C-level-Converter.kicad_sch</source>
+    <date>2026-01-23T17:04:26-0800</date>
+    <tool>Eeschema 9.0.7</tool>
+    <textvar name="PCBA_BR_REVISION">B</textvar>
+    <textvar name="PCBA_BR_TAB_NUMBER">002</textvar>
+    <textvar name="PCB_BR_BASE_NUMBER">100060</textvar>
+    <textvar name="PCB_BR_REVISION">B</textvar>
+    <textvar name="SCALE">1</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>I2C Level Converter</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>I2C-level-Converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF 100V</value>
+      <footprint>BR_Passives:C_0603_1608Metric-minimized</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <description>100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Num">GCJ188R72A104KA01D</field>
+        <field name="BRE Number">BRE-000034</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">490-13420-1-ND</field>
+        <field name="JLCPCB Part Num">C161117</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">81-GCJ188R72A104KA1D</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C161117</field>
+        <field name="Footprint">BR_Passives:C_0603_1608Metric-minimized</field>
+        <field name="Datasheet">https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</field>
+        <field name="Description">100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200</field>
+      </fields>
+      <libsource lib="BR_Capacitors_0603" part="C_0603_100nF_100V_X7R_AEC-Q200" description="100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Num" value="GCJ188R72A104KA01D"/>
+      <property name="BRE Number" value="BRE-000034"/>
+      <property name="Supplier 1" value="DigiKey"/>
+      <property name="Supplier Part Num 1" value="490-13420-1-ND"/>
+      <property name="JLCPCB Part Num" value="C161117"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Num 2" value="81-GCJ188R72A104KA1D"/>
+      <property name="Supplier 3" value="JLCPCB"/>
+      <property name="Supplier Part Num 3" value="C161117"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73266da5-a18f-4293-9bc8-c44434e1deba</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF 50V</value>
+      <footprint>BR_Passives:C_0603_1608Metric-minimized</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf</datasheet>
+      <description>1uF 50V X7R 10% Ceramic Capacitor 0603</description>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Num">CL10B105KB8NQNC</field>
+        <field name="BRE Number">BRE-000038</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">~</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">187-CL10B105KB8NQNC</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C5199872</field>
+        <field name="JLCPCB Part Num">C5199872</field>
+        <field name="Footprint">BR_Passives:C_0603_1608Metric-minimized</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf</field>
+        <field name="Description">1uF 50V X7R 10% Ceramic Capacitor 0603</field>
+      </fields>
+      <libsource lib="BR_Capacitors_0603" part="C_0603_1uF_50V_X7R_10%" description="1uF 50V X7R 10% Ceramic Capacitor 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Num" value="CL10B105KB8NQNC"/>
+      <property name="BRE Number" value="BRE-000038"/>
+      <property name="Supplier 1" value="DigiKey"/>
+      <property name="Supplier Part Num 1" value="~"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Num 2" value="187-CL10B105KB8NQNC"/>
+      <property name="Supplier 3" value="JLCPCB"/>
+      <property name="Supplier Part Num 3" value="C5199872"/>
+      <property name="JLCPCB Part Num" value="C5199872"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>053413f5-4d11-4ecf-ae1b-6a6d79996cbe</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF 50V</value>
+      <footprint>BR_Passives:C_0603_1608Metric-minimized</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf</datasheet>
+      <description>1uF 50V X7R 10% Ceramic Capacitor 0603</description>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Num">CL10B105KB8NQNC</field>
+        <field name="BRE Number">BRE-000038</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">~</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">187-CL10B105KB8NQNC</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C5199872</field>
+        <field name="JLCPCB Part Num">C5199872</field>
+        <field name="Footprint">BR_Passives:C_0603_1608Metric-minimized</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf</field>
+        <field name="Description">1uF 50V X7R 10% Ceramic Capacitor 0603</field>
+      </fields>
+      <libsource lib="BR_Capacitors_0603" part="C_0603_1uF_50V_X7R_10%" description="1uF 50V X7R 10% Ceramic Capacitor 0603"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Num" value="CL10B105KB8NQNC"/>
+      <property name="BRE Number" value="BRE-000038"/>
+      <property name="Supplier 1" value="DigiKey"/>
+      <property name="Supplier Part Num 1" value="~"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Num 2" value="187-CL10B105KB8NQNC"/>
+      <property name="Supplier 3" value="JLCPCB"/>
+      <property name="Supplier Part Num 3" value="C5199872"/>
+      <property name="JLCPCB Part Num" value="C5199872"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a8c343a-7d1b-4500-b13a-14ef01f73133</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF 100V</value>
+      <footprint>BR_Passives:C_0603_1608Metric-minimized</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <description>100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Num">GCJ188R72A104KA01D</field>
+        <field name="BRE Number">BRE-000034</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">490-13420-1-ND</field>
+        <field name="JLCPCB Part Num">C161117</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">81-GCJ188R72A104KA1D</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C161117</field>
+        <field name="Footprint">BR_Passives:C_0603_1608Metric-minimized</field>
+        <field name="Datasheet">https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</field>
+        <field name="Description">100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200</field>
+      </fields>
+      <libsource lib="BR_Capacitors_0603" part="C_0603_100nF_100V_X7R_AEC-Q200" description="100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Num" value="GCJ188R72A104KA01D"/>
+      <property name="BRE Number" value="BRE-000034"/>
+      <property name="Supplier 1" value="DigiKey"/>
+      <property name="Supplier Part Num 1" value="490-13420-1-ND"/>
+      <property name="JLCPCB Part Num" value="C161117"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Num 2" value="81-GCJ188R72A104KA1D"/>
+      <property name="Supplier 3" value="JLCPCB"/>
+      <property name="Supplier Part Num 3" value="C161117"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cf16e13-06b8-454e-8842-d60b2432108a</tstamps>
+    </comp>
+    <comp ref="GL101">
+      <value>~</value>
+      <footprint>BR_Virtual_Parts:JLC_Number</footprint>
+      <datasheet>https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB</datasheet>
+      <description>Footprint for JLC's batch number marking system</description>
+      <fields>
+        <field name="Footprint">BR_Virtual_Parts:JLC_Number</field>
+        <field name="Datasheet">https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB</field>
+        <field name="Description">Footprint for JLC's batch number marking system</field>
+      </fields>
+      <libsource lib="BR_Virtual_Parts" part="JLC_Number" description="Footprint for JLC's batch number marking system"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="JLC Number"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e29bf312-33d0-4de2-b110-82061d5fcafc</tstamps>
+    </comp>
+    <comp ref="GL102">
+      <value>~</value>
+      <footprint>BR_Virtual_Parts:BR_Logo</footprint>
+      <fields>
+        <field name="Footprint">BR_Virtual_Parts:BR_Logo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BR_Virtual_Parts" part="BR_Logo" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f15bdb54-3e34-477b-8f41-30dde671f3cc</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>~</value>
+      <footprint>BR_Connectors:Pin_Header_1x4_2.54mm_Vertical</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf</datasheet>
+      <description>Header Pin Connector 01x04 2.54mm (0.100") Vertical PTH</description>
+      <fields>
+        <field name="Manufacturer">XFCN</field>
+        <field name="Manufacturer Part Num">PZ254V-11-04P</field>
+        <field name="BRE Number">BRE-001042</field>
+        <field name="JLCPCB Part Num">C5116483</field>
+        <field name="Footprint">BR_Connectors:Pin_Header_1x4_2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf</field>
+        <field name="Description">Header Pin Connector 01x04 2.54mm (0.100") Vertical PTH</field>
+      </fields>
+      <libsource lib="BR_Connectors_Header" part="Header_Pin_01x04_2.54mm_Vert_PTH" description="Header Pin Connector 01x04 2.54mm (0.100&quot;) Vertical PTH"/>
+      <property name="Manufacturer" value="XFCN"/>
+      <property name="Manufacturer Part Num" value="PZ254V-11-04P"/>
+      <property name="BRE Number" value="BRE-001042"/>
+      <property name="JLCPCB Part Num" value="C5116483"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ae37d3b-5485-44cb-965d-366b682de6bc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>4-pin header</value>
+      <footprint>BR_Connectors:Pin_Header_1x4_2.54mm_Vertical</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf</datasheet>
+      <description>Header Pin Connector 01x04 2.54mm (0.100") Vertical PTH</description>
+      <fields>
+        <field name="Manufacturer">XFCN</field>
+        <field name="Manufacturer Part Num">PZ254V-11-04P</field>
+        <field name="BRE Number">BRE-001042</field>
+        <field name="JLCPCB Part Num">C5116483</field>
+        <field name="Footprint">BR_Connectors:Pin_Header_1x4_2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf</field>
+        <field name="Description">Header Pin Connector 01x04 2.54mm (0.100") Vertical PTH</field>
+      </fields>
+      <libsource lib="BR_Connectors_Header" part="Header_Pin_01x04_2.54mm_Vert_PTH" description="Header Pin Connector 01x04 2.54mm (0.100&quot;) Vertical PTH"/>
+      <property name="Manufacturer" value="XFCN"/>
+      <property name="Manufacturer Part Num" value="PZ254V-11-04P"/>
+      <property name="BRE Number" value="BRE-001042"/>
+      <property name="JLCPCB Part Num" value="C5116483"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5963d912-a682-4e9f-8add-7ebc10d8d1f8</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DF13-4P-1.25V(21)</value>
+      <footprint>BR_Connectors:HRS_DF13C_4P_1.25V(21)</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C116890.pdf</datasheet>
+      <description>Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical</description>
+      <fields>
+        <field name="Manufacturer">HRS</field>
+        <field name="Manufacturer Part Num">DF13C-4P-1.25V(21)</field>
+        <field name="BRE Number">BRE-001368</field>
+        <field name="JLCPCB Part Num"/>
+        <field name="Footprint">BR_Connectors:HRS_DF13C_4P_1.25V(21)</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C116890.pdf</field>
+        <field name="Description">Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical</field>
+      </fields>
+      <libsource lib="BR_Connectors" part="HRS_DF13C_4P_1.25V(21)" description="Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical"/>
+      <property name="Manufacturer" value="HRS"/>
+      <property name="Manufacturer Part Num" value="DF13C-4P-1.25V(21)"/>
+      <property name="BRE Number" value="BRE-001368"/>
+      <property name="JLCPCB Part Num" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e43db2d0-16b9-4730-bdd7-a7e47acb32d7</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>4-pin GH</value>
+      <footprint>BR_Connectors_JST:BM04B-GHS-TBT</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</datasheet>
+      <description>JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical</description>
+      <fields>
+        <field name="Manufacturer">JST</field>
+        <field name="Manufacturer Part Num">BM04B-GHS-TBT</field>
+        <field name="BRE Number">BRE-000096</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">455-BM04B-GHS-TBTCT-ND</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C161692</field>
+        <field name="Supplier 2"/>
+        <field name="Supplier Part Num 2"/>
+        <field name="JLCPCB Part Num">C161692</field>
+        <field name="Footprint">BR_Connectors_JST:BM04B-GHS-TBT</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</field>
+        <field name="Description">JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical</field>
+      </fields>
+      <libsource lib="BR_Connectors_JST_GH" part="BM04B-GHS-TBT" description="JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="Manufacturer Part Num" value="BM04B-GHS-TBT"/>
+      <property name="BRE Number" value="BRE-000096"/>
+      <property name="Supplier 1" value="DigiKey"/>
+      <property name="Supplier Part Num 1" value="455-BM04B-GHS-TBTCT-ND"/>
+      <property name="Supplier 3" value="JLCPCB"/>
+      <property name="Supplier Part Num 3" value="C161692"/>
+      <property name="Supplier 2" value=""/>
+      <property name="Supplier Part Num 2" value=""/>
+      <property name="JLCPCB Part Num" value="C161692"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b542eab1-1b5e-4e51-a3f1-ecf61919d617</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Solder_Jumper_3_Bridged12_flipped</value>
+      <footprint>BR_Virtual_Parts:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_paste</footprint>
+      <fields>
+        <field name="Footprint">BR_Virtual_Parts:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_paste</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BR_Virtual_Parts" part="Solder_Jumper_3_Bridged12-Jumper_flipped" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_fp_filters" value="SolderJumper*Bridged12*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7edd0bf-8897-4573-b012-7be2bec1b22c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>BR_Passives:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</datasheet>
+      <description>1k 1% 100ppm 100mW Thick Film Resistor 0603</description>
+      <fields>
+        <field name="Manufacturer">Uni-Royal</field>
+        <field name="Manufacturer Part Num">0603WAF1001T5E</field>
+        <field name="BRE Number">BRE-001188</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num">C21190</field>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</field>
+        <field name="Description">1k 1% 100ppm 100mW Thick Film Resistor 0603</field>
+      </fields>
+      <libsource lib="BR_Resistors_0603" part="R_0603_1k" description="1k 1% 100ppm 100mW Thick Film Resistor 0603"/>
+      <property name="Manufacturer" value="Uni-Royal"/>
+      <property name="Manufacturer Part Num" value="0603WAF1001T5E"/>
+      <property name="BRE Number" value="BRE-001188"/>
+      <property name="Package" value="0603"/>
+      <property name="Supplier 1" value="JLCPCB"/>
+      <property name="Supplier Part Num 1" value="C4275"/>
+      <property name="JLCPCB Part Num" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>612c4794-9f04-4e0a-83a0-90101197a826</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>BR_Passives:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</datasheet>
+      <description>1k 1% 100ppm 100mW Thick Film Resistor 0603</description>
+      <fields>
+        <field name="Manufacturer">Uni-Royal</field>
+        <field name="Manufacturer Part Num">0603WAF1001T5E</field>
+        <field name="BRE Number">BRE-001188</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num">C21190</field>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</field>
+        <field name="Description">1k 1% 100ppm 100mW Thick Film Resistor 0603</field>
+      </fields>
+      <libsource lib="BR_Resistors_0603" part="R_0603_1k" description="1k 1% 100ppm 100mW Thick Film Resistor 0603"/>
+      <property name="Manufacturer" value="Uni-Royal"/>
+      <property name="Manufacturer Part Num" value="0603WAF1001T5E"/>
+      <property name="BRE Number" value="BRE-001188"/>
+      <property name="Package" value="0603"/>
+      <property name="Supplier 1" value="JLCPCB"/>
+      <property name="Supplier Part Num 1" value="C4275"/>
+      <property name="JLCPCB Part Num" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e778bd79-79d5-4866-87b6-fda961a25feb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>200k</value>
+      <footprint>BR_Passives:R_0603_1608Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C25811.pdf</datasheet>
+      <description>R_0603_200k</description>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="Manufacturer Part Num">0603WAF2003T5E</field>
+        <field name="BRE Number">BRE-001367</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num"/>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C25811.pdf</field>
+        <field name="Description">R_0603_200k</field>
+      </fields>
+      <libsource lib="BR_Resistors_0603" part="R_0603_200k" description="R_0603_200k"/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="Manufacturer Part Num" value="0603WAF2003T5E"/>
+      <property name="BRE Number" value="BRE-001367"/>
+      <property name="Package" value="0603"/>
+      <property name="Supplier 1" value="JLCPCB"/>
+      <property name="Supplier Part Num 1" value="C4275"/>
+      <property name="JLCPCB Part Num" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5544578-d4e8-4f40-904c-0719d7eb0ff3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>BR_Passives:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</datasheet>
+      <description>1k 1% 100ppm 100mW Thick Film Resistor 0603</description>
+      <fields>
+        <field name="Manufacturer">Uni-Royal</field>
+        <field name="Manufacturer Part Num">0603WAF1001T5E</field>
+        <field name="BRE Number">BRE-001188</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num">C21190</field>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</field>
+        <field name="Description">1k 1% 100ppm 100mW Thick Film Resistor 0603</field>
+      </fields>
+      <libsource lib="BR_Resistors_0603" part="R_0603_1k" description="1k 1% 100ppm 100mW Thick Film Resistor 0603"/>
+      <property name="Manufacturer" value="Uni-Royal"/>
+      <property name="Manufacturer Part Num" value="0603WAF1001T5E"/>
+      <property name="BRE Number" value="BRE-001188"/>
+      <property name="Package" value="0603"/>
+      <property name="Supplier 1" value="JLCPCB"/>
+      <property name="Supplier Part Num 1" value="C4275"/>
+      <property name="JLCPCB Part Num" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68cec833-322d-4f46-b78a-1b41a19aadd8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>BR_Passives:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</datasheet>
+      <description>1k 1% 100ppm 100mW Thick Film Resistor 0603</description>
+      <fields>
+        <field name="Manufacturer">Uni-Royal</field>
+        <field name="Manufacturer Part Num">0603WAF1001T5E</field>
+        <field name="BRE Number">BRE-001188</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num">C21190</field>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</field>
+        <field name="Description">1k 1% 100ppm 100mW Thick Film Resistor 0603</field>
+      </fields>
+      <libsource lib="BR_Resistors_0603" part="R_0603_1k" description="1k 1% 100ppm 100mW Thick Film Resistor 0603"/>
+      <property name="Manufacturer" value="Uni-Royal"/>
+      <property name="Manufacturer Part Num" value="0603WAF1001T5E"/>
+      <property name="BRE Number" value="BRE-001188"/>
+      <property name="Package" value="0603"/>
+      <property name="Supplier 1" value="JLCPCB"/>
+      <property name="Supplier Part Num 1" value="C4275"/>
+      <property name="JLCPCB Part Num" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6001f7f4-f6ad-470e-bd33-7b4efa00d919</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PCA9306D,118</value>
+      <footprint>BR_SO:SO-8_3.9x4.9mm_P1.27mm_correct</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf</datasheet>
+      <description>PCA9306D,118,  -40℃~+105℃ 1 1.8V~5.5V 1V~3.6V 2 2Mbps Auto Direction Detection Bidirectional Open Drain SO-8 Translators, Level Shifters ROHS</description>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="Manufacturer Part Num">PCA9306D,118</field>
+        <field name="BRE Number">BRE-001365</field>
+        <field name="LCSC Part">C2677369</field>
+        <field name="JLCPCB Part Num"/>
+        <field name="Footprint">BR_SO:SO-8_3.9x4.9mm_P1.27mm_correct</field>
+        <field name="Datasheet">https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf</field>
+        <field name="Description">PCA9306D,118,  -40℃~+105℃ 1 1.8V~5.5V 1V~3.6V 2 2Mbps Auto Direction Detection Bidirectional Open Drain SO-8 Translators, Level Shifters ROHS</field>
+      </fields>
+      <libsource lib="BR_IC" part="PCA9306D,118" description="PCA9306D,118,  -40℃~+105℃ 1 1.8V~5.5V 1V~3.6V 2 2Mbps Auto Direction Detection Bidirectional Open Drain SO-8 Translators, Level Shifters ROHS"/>
+      <property name="Manufacturer" value="NXP"/>
+      <property name="Manufacturer Part Num" value="PCA9306D,118"/>
+      <property name="BRE Number" value="BRE-001365"/>
+      <property name="LCSC Part" value="C2677369"/>
+      <property name="JLCPCB Part Num" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9e36331-ad75-48a7-a46a-3ab7ed89d331</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5365-3.3YC5</value>
+      <footprint>BR_IC:SOT-353_SC-70-5</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</datasheet>
+      <description>Linear Regulator, 2.5 - 5.5V Input, 150mA, 3.3V Output, SC-70-5 (1.8x1.8)</description>
+      <fields>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer Part Num">MIC5365-3.3YC5-TR</field>
+        <field name="BRE Number">BRE-000203</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">576-3193-2-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">998-MIC5365-3.3YC5TR</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C73103</field>
+        <field name="JLCPCB Part Num">C73103</field>
+        <field name="Footprint">BR_IC:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</field>
+        <field name="Description">Linear Regulator, 2.5 - 5.5V Input, 150mA, 3.3V Output, SC-70-5 (1.8x1.8)</field>
+      </fields>
+      <libsource lib="BR_IC_Regulators" part="MIC5365-3.3YC5" description="Linear Regulator, 2.5 - 5.5V Input, 150mA, 3.3V Output, SC-70-5 (1.8x1.8)"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="Manufacturer Part Num" value="MIC5365-3.3YC5-TR"/>
+      <property name="BRE Number" value="BRE-000203"/>
+      <property name="Supplier 1" value="DigiKey"/>
+      <property name="Supplier Part Num 1" value="576-3193-2-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Num 2" value="998-MIC5365-3.3YC5TR"/>
+      <property name="Supplier 3" value="JLCPCB"/>
+      <property name="Supplier Part Num 3" value="C73103"/>
+      <property name="JLCPCB Part Num" value="C73103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-level-Converter.kicad_sch"/>
+      <property name="ki_keywords" value="Linear Regulator 3V3 3.3V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96f4777c-d2e3-4e06-b735-c0d40fd09566</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BR_Capacitors_0603" part="C_0603_100nF_100V_X7R_AEC-Q200">
+      <description>100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200</description>
+      <docs>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 100V</field>
+        <field name="Footprint">BR_Passives:C_0603_1608Metric-minimized</field>
+        <field name="Datasheet">https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</field>
+        <field name="Description">100nF 100V X7R 10% Ceramic Capacitor 0603 AEC-Q200</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Num">GCJ188R72A104KA01D</field>
+        <field name="BRE Number">BRE-000034</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">490-13420-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">81-GCJ188R72A104KA1D</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C161117</field>
+        <field name="JLCPCB Part Num">C161117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Capacitors_0603" part="C_0603_1uF_50V_X7R_10%">
+      <description>1uF 50V X7R 10% Ceramic Capacitor 0603</description>
+      <docs>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF 50V</field>
+        <field name="Footprint">BR_Passives:C_0603_1608Metric-minimized</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf</field>
+        <field name="Description">1uF 50V X7R 10% Ceramic Capacitor 0603</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Num">CL10B105KB8NQNC</field>
+        <field name="BRE Number">BRE-000038</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">~</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">187-CL10B105KB8NQNC</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C5199872</field>
+        <field name="JLCPCB Part Num">C5199872</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Connectors" part="HRS_DF13C_4P_1.25V(21)">
+      <description>Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical</description>
+      <docs>https://www.lcsc.com/datasheet/C116890.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">BR_Connectors:HRS_DF13C_4P_1.25V(21)</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C116890.pdf</field>
+        <field name="Description">Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical</field>
+        <field name="Manufacturer">HRS</field>
+        <field name="Manufacturer Part Num">DF13C-4P-1.25V(21)</field>
+        <field name="BRE Number">BRE-001368</field>
+        <field name="JLCPCB Part Num"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_A1" type="passive"/>
+        <pin num="2" name="Pin_A2" type="passive"/>
+        <pin num="3" name="Pin_A3" type="passive"/>
+        <pin num="4" name="Pin_A4" type="passive"/>
+        <pin num="MP" name="MP" type="free"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Connectors_Header" part="Header_Pin_01x04_2.54mm_Vert_PTH">
+      <description>Header Pin Connector 01x04 2.54mm (0.100") Vertical PTH</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LABEL</field>
+        <field name="Footprint">BR_Connectors:Pin_Header_1x4_2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf</field>
+        <field name="Description">Header Pin Connector 01x04 2.54mm (0.100") Vertical PTH</field>
+        <field name="Manufacturer">XFCN</field>
+        <field name="Manufacturer Part Num">PZ254V-11-04P</field>
+        <field name="BRE Number">BRE-001042</field>
+        <field name="JLCPCB Part Num">C5116483</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Connectors_JST_GH" part="BM04B-GHS-TBT">
+      <description>JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical</description>
+      <docs>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LABEL</field>
+        <field name="Footprint">BR_Connectors_JST:BM04B-GHS-TBT</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</field>
+        <field name="Description">JST-GH Connector 4-pos, P=1.25mm, 1A 50V 30mΩ, 26-30awg, Vertical</field>
+        <field name="Manufacturer">JST</field>
+        <field name="Manufacturer Part Num">BM04B-GHS-TBT</field>
+        <field name="BRE Number">BRE-000096</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">455-BM04B-GHS-TBTCT-ND</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C161692</field>
+        <field name="Supplier 2"/>
+        <field name="Supplier Part Num 2"/>
+        <field name="JLCPCB Part Num">C161692</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MP" type="free"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_IC" part="PCA9306D,118">
+      <description>PCA9306D,118,  -40℃~+105℃ 1 1.8V~5.5V 1V~3.6V 2 2Mbps Auto Direction Detection Bidirectional Open Drain SO-8 Translators, Level Shifters ROHS</description>
+      <docs>https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9306D,118</field>
+        <field name="Footprint">BR_SO:SO-8_3.9x4.9mm_P1.27mm_correct</field>
+        <field name="Datasheet">https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf</field>
+        <field name="Description">PCA9306D,118,  -40℃~+105℃ 1 1.8V~5.5V 1V~3.6V 2 2Mbps Auto Direction Detection Bidirectional Open Drain SO-8 Translators, Level Shifters ROHS</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Manufacturer Part Num">PCA9306D,118</field>
+        <field name="BRE Number">BRE-001365</field>
+        <field name="LCSC Part">C2677369</field>
+        <field name="JLCPCB Part Num"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VREF1" type="power_in"/>
+        <pin num="3" name="SCL1" type="bidirectional"/>
+        <pin num="4" name="SDA1" type="bidirectional"/>
+        <pin num="5" name="SDA2" type="bidirectional"/>
+        <pin num="6" name="SCL2" type="bidirectional"/>
+        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="8" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_IC_Regulators" part="MIC5365-3.3YC5">
+      <description>Linear Regulator, 2.5 - 5.5V Input, 150mA, 3.3V Output, SC-70-5 (1.8x1.8)</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5365-3.3YC5</field>
+        <field name="Footprint">BR_IC:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</field>
+        <field name="Description">Linear Regulator, 2.5 - 5.5V Input, 150mA, 3.3V Output, SC-70-5 (1.8x1.8)</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer Part Num">MIC5365-3.3YC5-TR</field>
+        <field name="BRE Number">BRE-000203</field>
+        <field name="Supplier 1">DigiKey</field>
+        <field name="Supplier Part Num 1">576-3193-2-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Num 2">998-MIC5365-3.3YC5TR</field>
+        <field name="Supplier 3">JLCPCB</field>
+        <field name="Supplier Part Num 3">C73103</field>
+        <field name="JLCPCB Part Num">C73103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="unspecified"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Resistors_0603" part="R_0603_1k">
+      <description>1k 1% 100ppm 100mW Thick Film Resistor 0603</description>
+      <docs>https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706098733010944</field>
+        <field name="Description">1k 1% 100ppm 100mW Thick Film Resistor 0603</field>
+        <field name="Manufacturer">Uni-Royal</field>
+        <field name="Manufacturer Part Num">0603WAF1001T5E</field>
+        <field name="BRE Number">BRE-001188</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num">C21190</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Resistors_0603" part="R_0603_200k">
+      <description>R_0603_200k</description>
+      <docs>https://www.lcsc.com/datasheet/C25811.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">200k</field>
+        <field name="Footprint">BR_Passives:R_0603_1608Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C25811.pdf</field>
+        <field name="Description">R_0603_200k</field>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="Manufacturer Part Num">0603WAF2003T5E</field>
+        <field name="BRE Number">BRE-001367</field>
+        <field name="Package">0603</field>
+        <field name="Supplier 1">JLCPCB</field>
+        <field name="Supplier Part Num 1">C4275</field>
+        <field name="JLCPCB Part Num"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BR_Virtual_Parts" part="BR_Logo">
+      <fields>
+        <field name="Reference">GL</field>
+        <field name="Value"/>
+        <field name="Footprint">BR_Virtual_Parts:BR_Logo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="BR_Virtual_Parts" part="JLC_Number">
+      <description>Footprint for JLC's batch number marking system</description>
+      <docs>https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB</docs>
+      <fields>
+        <field name="Reference">GL</field>
+        <field name="Value"/>
+        <field name="Footprint">BR_Virtual_Parts:JLC_Number</field>
+        <field name="Datasheet">https://jlcpcb.com/help/article/How-to-remove-order-number-from-your-PCB</field>
+        <field name="Description">Footprint for JLC's batch number marking system</field>
+      </fields>
+    </libpart>
+    <libpart lib="BR_Virtual_Parts" part="Solder_Jumper_3_Bridged12-Jumper_flipped">
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Solder_Jumper_3_Bridged12</field>
+        <field name="Footprint">BR_Virtual_Parts:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_paste</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="output"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BR_Capacitors_0603">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_Capacitors_0603.kicad_sym</uri>
+    </library>
+    <library logical="BR_Connectors">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="BR_Connectors_Header">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_Connectors_Header.kicad_sym</uri>
+    </library>
+    <library logical="BR_Connectors_JST_GH">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_Connectors_JST_GH.kicad_sym</uri>
+    </library>
+    <library logical="BR_IC">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_IC.kicad_sym</uri>
+    </library>
+    <library logical="BR_IC_Regulators">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_IC_Regulators.kicad_sym</uri>
+    </library>
+    <library logical="BR_Resistors_0603">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_Resistors_0603.kicad_sym</uri>
+    </library>
+    <library logical="BR_Virtual_Parts">
+      <uri>C:\Users\natal\Documents\GitHub\br-kicad-lib\Symbols/BR_Virtual_Parts.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SCL1" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SCL1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/SCL2" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_A2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SCL2" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/SDA1" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SDA1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/SDA2" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_A3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDA2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="3.3V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="6" name="5V" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VREF1" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="7" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_A4" pintype="passive"/>
+      <node ref="J3" pin="MP" pinfunction="MP" pintype="free"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="MP" pinfunction="MP" pintype="free"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(U1-EN)" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VREF2" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="9" name="V_DEVICE" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_A1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="output"/>
+    </net>
+    <net code="10" name="unconnected-(U2-NC-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>
